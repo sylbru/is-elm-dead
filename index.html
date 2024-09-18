@@ -6,17 +6,27 @@
     <meta name="description" content="Is Elm dead? No. This page intends to explain why it’s not, and why it doesn’t matter." />
     <title>Is Elm dead?</title>
     <style>
+        :root {
+            /* Minor third type scale */
+            --step6: 2.986rem;
+            --step5: 2.488rem;
+            --step4: 2.074rem;
+            --step3: 1.728rem;
+            --step2: 1.44rem;
+            --step1: 1.2rem;
+            --step0: 1rem;
+            --step-1: 0.833rem;
+        }
         body { text-align: center; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif; }
-        main, aside { max-width: 40em; margin: auto; }
-        p { margin: 2.5em 0; line-height: 1.75; }
-        .dead { font-size: 1.1em; margin: 10vh 0; font-weight: normal; }
+        main, aside { max-width: 70ch; margin: auto; }
+        p { margin: 2.5rem 0; line-height: 1.75; }
+        .dead { font-size: var(--step1); margin: 10vh 0; font-weight: normal; }
         a { text-decoration: none; color: #0d7bb6; }
         a:hover { text-decoration: underline; }
-        .no { font-size: 2.5em; margin: 25vh 0; }
-        .details { font-size: 0.9em; }
-        .satire { margin: 2.5em auto; }
+        .no { font-size: var(--step4); margin: 25vh 0; }
+        .satire { margin: 2.5rem auto; }
         .satire > img { max-width: 100%; display: block; margin: auto; }
-        .satire > figcaption { margin-top: .5em; font-size: .9em; font-style: italic; text-align: right; }
+        .satire > figcaption { margin-top: .5em; font-size: var(--step-1); font-style: italic; text-align: right; }
     </style>
     <script data-goatcounter="https://is-elm-dead.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> </head>
 </head>
